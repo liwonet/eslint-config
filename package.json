@@ -26,14 +26,14 @@
     "dist"
   ],
   "scripts": {
-    "build": "nr gen && tsdown --clean --dts",
+    "build": "pnpm run gen && tsdown --clean --dts",
     "stub": "tsdown",
     "dev": "npx @eslint/config-inspector --config eslint.config.ts",
     "build:inspector": "pnpm build && npx @eslint/config-inspector build",
     "watch": "tsdown --watch",
     "lint": "eslint",
     "gen": "tsx scripts/typegen.ts",
-    "prepack": "nr build",
+    "prepack": "pnpm run build",
     "release": "bumpp && pnpm publish",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
@@ -81,16 +81,7 @@
     "eslint-plugin-react-refresh": {
       "optional": true
     },
-    "eslint-plugin-solid": {
-      "optional": true
-    },
-    "eslint-plugin-svelte": {
-      "optional": true
-    },
     "eslint-plugin-vuejs-accessibility": {
-      "optional": true
-    },
-    "prettier-plugin-astro": {
       "optional": true
     },
     "prettier-plugin-slidev": {
@@ -137,10 +128,9 @@
     "yaml-eslint-parser": "catalog:prod"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "workspace:*",
-    "@antfu/ni": "catalog:dev",
     "@eslint-react/eslint-plugin": "catalog:peer",
     "@eslint/config-inspector": "catalog:dev",
+    "@liwo/eslint-config": "workspace:*",
     "@prettier/plugin-xml": "catalog:peer",
     "@types/node": "catalog:dev",
     "@unocss/eslint-plugin": "catalog:peer",
@@ -151,6 +141,7 @@
     "eslint-plugin-react-refresh": "catalog:peer",
     "eslint-plugin-vuejs-accessibility": "catalog:peer",
     "eslint-typegen": "catalog:dev",
+    "execa": "catalog:dev",
     "lint-staged": "catalog:dev",
     "pnpm-workspace-yaml": "catalog:dev",
     "prettier-plugin-slidev": "catalog:peer",

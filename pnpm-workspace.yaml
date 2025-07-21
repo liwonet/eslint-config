@@ -8,11 +8,11 @@ overrides:
   tsx: ^4.20.3
 catalogs:
   dev:
-    '@antfu/ni': ^25.0.0
     '@eslint/config-inspector': ^1.1.0
     '@types/node': ^24.0.13
     bumpp: ^10.2.0
     eslint-typegen: ^2.2.1
+    execa: ^9.6.0
     lint-staged: ^16.1.2
     pnpm-workspace-yaml: ^1.0.0
     simple-git-hooks: ^2.13.0

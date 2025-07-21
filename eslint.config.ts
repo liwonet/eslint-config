@@ -2,17 +2,17 @@ import { antfu } from './src'
 
 export default antfu(
   {
-    vue: {
-      a11y: true,
-    },
+    astro: true,
+    formatters: true,
+    pnpm: true,
     react: true,
     solid: true,
     svelte: true,
-    astro: true,
-    typescript: true,
-    formatters: true,
-    pnpm: true,
     type: 'lib',
+    typescript: true,
+    vue: {
+      a11y: true,
+    },
   },
   {
     ignores: [
@@ -22,7 +22,7 @@ export default antfu(
     ],
   },
   {
-    files: ['src/**/*.ts'],
+    files: ['src/**/*.ts', '*.ts'],
     rules: {
       'perfectionist/sort-objects': 'error',
     },
