@@ -29,7 +29,7 @@
     "build": "pnpm run gen && tsdown --clean --dts",
     "stub": "tsdown",
     "dev": "npx @eslint/config-inspector --config eslint.config.ts",
-    "build:inspector": "pnpm build && npx @eslint/config-inspector build",
+    "build:inspector": "pnpm build && npx @eslint/config-inspector build --base eslint-config",
     "watch": "tsdown --watch",
     "lint": "eslint",
     "gen": "tsx scripts/typegen.ts",
