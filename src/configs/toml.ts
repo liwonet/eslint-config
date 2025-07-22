@@ -26,7 +26,7 @@ export async function toml(
 
   return [
     {
-      name: 'antfu/toml/setup',
+      name: 'liwo/toml/setup',
       plugins: {
         toml: pluginToml,
       },
@@ -36,7 +36,7 @@ export async function toml(
       languageOptions: {
         parser: parserToml,
       },
-      name: 'antfu/toml/rules',
+      name: 'liwo/toml/rules',
       rules: {
         'style/spaced-comment': 'off',
 

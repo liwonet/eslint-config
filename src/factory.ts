@@ -101,7 +101,7 @@ export function antfu(
     isInEditor = isInEditorEnv()
     if (isInEditor)
       // eslint-disable-next-line no-console
-      console.log('[@antfu/eslint-config] Detected running in editor, some rules are disabled.')
+      console.log('[@liwo/eslint-config] Detected running in editor, some rules are disabled.')
   }
 
   const stylisticOptions = options.stylistic === false
@@ -118,13 +118,13 @@ export function antfu(
   if (enableGitignore) {
     if (typeof enableGitignore !== 'boolean') {
       configs.push(interopDefault(import('eslint-config-flat-gitignore')).then(r => [r({
-        name: 'antfu/gitignore',
+        name: 'liwo/gitignore',
         ...enableGitignore,
       })]))
     }
     else {
       configs.push(interopDefault(import('eslint-config-flat-gitignore')).then(r => [r({
-        name: 'antfu/gitignore',
+        name: 'liwo/gitignore',
         strict: false,
       })]))
     }
@@ -292,7 +292,7 @@ export function antfu(
   )
 
   if ('files' in options) {
-    throw new Error('[@antfu/eslint-config] The first argument should not contain the "files" property as the options are supposed to be global. Place it in the second or later config instead.')
+    throw new Error('[@liwo/eslint-config] The first argument should not contain the "files" property as the options are supposed to be global. Place it in the second or later config instead.')
   }
 
   // User can optionally pass a flat config item to the first argument

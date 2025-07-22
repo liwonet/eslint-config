@@ -13,7 +13,7 @@ export async function jsx(): Promise<TypedFlatConfigItem[]> {
           },
         },
       },
-      name: 'antfu/jsx/setup',
+      name: 'liwo/jsx/setup',
     },
   ]
 }
