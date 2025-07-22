@@ -2,12 +2,9 @@ import { eslintConfig } from './src'
 
 export default eslintConfig(
   {
-    astro: true,
     formatters: true,
     pnpm: true,
     react: true,
-    solid: true,
-    svelte: true,
     type: 'lib',
     typescript: true,
     vue: {
