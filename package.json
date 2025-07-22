@@ -34,7 +34,6 @@
     "lint": "eslint",
     "gen": "tsx scripts/typegen.ts",
     "prepack": "pnpm run build",
-    "release": "bumpp && pnpm publish",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
@@ -119,7 +118,6 @@
     "@prettier/plugin-xml": "catalog:peer",
     "@types/node": "catalog:dev",
     "@unocss/eslint-plugin": "catalog:peer",
-    "bumpp": "catalog:dev",
     "eslint": "catalog:peer",
     "eslint-plugin-format": "catalog:peer",
     "eslint-plugin-react-hooks": "catalog:peer",
