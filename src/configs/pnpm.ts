@@ -27,8 +27,8 @@ export async function pnpm(): Promise<TypedFlatConfigItem[]> {
         pnpm: pluginPnpm,
       },
       rules: {
-        'pnpm/json-enforce-catalog': 'error',
-        'pnpm/json-prefer-workspace-settings': 'error',
+        'pnpm/json-enforce-catalog': 'off',
+        'pnpm/json-prefer-workspace-settings': 'off',
         'pnpm/json-valid-catalog': 'error',
       },
     },
