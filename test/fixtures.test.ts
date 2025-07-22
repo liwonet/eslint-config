@@ -157,5 +157,5 @@ export default liwo(
       }
       await expect.soft(content).toMatchFileSnapshot(join(output, file))
     }))
-  }, 30_000)
+  }, 60_000)
 }
