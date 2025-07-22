@@ -1,5 +1,3 @@
 # @liwo/eslint-config
 
-来自 `@antfu/eslint-config` v4.17.0 的 Hard Fork
-
-它会更为偏激，且不适用于多数人。
+Hard-forked from `@antfu/eslint-config`. It adopts a more opinionated and aggressive approach, making it generally unsuitable for the majority of users.
