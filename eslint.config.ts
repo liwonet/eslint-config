@@ -1,6 +1,6 @@
-import { antfu } from './src'
+import { eslintConfig } from './src'
 
-export default antfu(
+export default eslintConfig(
   {
     astro: true,
     formatters: true,
