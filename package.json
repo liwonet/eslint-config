@@ -130,7 +130,7 @@
     "prettier-plugin-slidev": "^1.0.5",
     "simple-git-hooks": "^2.13.0",
     "tinyglobby": "^0.2.14",
-    "tsdown": "^0.12.9",
+    "tsdown": "^0.13.0",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3",
     "vitest": "^3.2.4",
