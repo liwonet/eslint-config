@@ -116,7 +116,7 @@
     "@eslint/config-inspector": "^1.1.0",
     "@liwo/eslint-config": "workspace:*",
     "@prettier/plugin-xml": "^3.4.2",
-    "@types/node": "24.0.15",
+    "@types/node": "24.1.0",
     "@unocss/eslint-plugin": "^66.3.3",
     "eslint": "9.31.0",
     "eslint-plugin-format": "1.0.1",
