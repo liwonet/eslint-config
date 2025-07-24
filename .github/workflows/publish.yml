@@ -8,11 +8,6 @@ on:
 permissions:
   contents: read
   id-token: write
-  pages: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 jobs:
   publish:
@@ -43,19 +38,3 @@ jobs:
         run: pnpm publish --no-git-checks --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .eslint-config-inspector
-
-  pages-deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: publish
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
