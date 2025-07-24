@@ -12,7 +12,7 @@ export async function comments(): Promise<TypedFlatConfigItem[]> {
       rules: {
         'eslint-comments/no-aggregating-enable': 'error',
         'eslint-comments/no-duplicate-disable': 'error',
-        'eslint-comments/no-unlimited-disable': 'error',
+        'eslint-comments/no-unlimited-disable': 'off',
         'eslint-comments/no-unused-enable': 'error',
       },
     },
