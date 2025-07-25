@@ -392,7 +392,7 @@ export interface OptionsConfig extends OptionsComponentExts, OptionsProjectType 
    *
    * When set to `true`, it will enable all formatters.
    *
-   * @default false
+   * @default true
    */
   formatters?: boolean | OptionsFormatters
 

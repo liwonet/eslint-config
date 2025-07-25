@@ -86,7 +86,7 @@ export function eslintConfig(
     imports: enableImports = true,
     jsx: enableJsx = true,
     pnpm: enableCatalogs = false, // TODO: smart detect
-    react: enableReact = false,
+    react: enableReact = isPackageExists('react'),
     regexp: enableRegexp = true,
     typescript: enableTypeScript = isPackageExists('typescript'),
     unicorn: enableUnicorn = true,
@@ -271,7 +271,7 @@ export function eslintConfig(
     )
   }
 
-  if (options.formatters) {
+  if (options.formatters || options.formatters === undefined) {
     configs.push(formatters(
       options.formatters,
       typeof stylisticOptions === 'boolean' ? {} : stylisticOptions,

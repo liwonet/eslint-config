@@ -43,7 +43,6 @@
     "@prettier/plugin-xml": "^3.4.2",
     "@unocss/eslint-plugin": "^66.3.3",
     "eslint": "^9.31.0",
-    "eslint-plugin-format": "^1.0.1",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "eslint-plugin-vuejs-accessibility": "^2.4.1",
@@ -57,9 +56,6 @@
       "optional": true
     },
     "@unocss/eslint-plugin": {
-      "optional": true
-    },
-    "eslint-plugin-format": {
       "optional": true
     },
     "eslint-plugin-react-hooks": {
@@ -89,6 +85,7 @@
     "eslint-merge-processors": "^2.0.0",
     "eslint-plugin-antfu": "^3.1.1",
     "eslint-plugin-command": "^3.3.1",
+    "eslint-plugin-format": "^1.0.1",
     "eslint-plugin-import-lite": "^0.3.0",
     "eslint-plugin-jsdoc": "^51.3.4",
     "eslint-plugin-jsonc": "^2.20.1",
@@ -119,7 +116,6 @@
     "@types/node": "24.1.0",
     "@unocss/eslint-plugin": "^66.3.3",
     "eslint": "9.31.0",
-    "eslint-plugin-format": "1.0.1",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "eslint-plugin-vuejs-accessibility": "^2.4.1",
