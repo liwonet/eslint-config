@@ -47,6 +47,9 @@ importers:
       eslint-plugin-command:
         specifier: ^3.3.1
         version: 3.3.1(eslint@9.31.0(jiti@2.5.0))
+      eslint-plugin-format:
+        specifier: ^1.0.1
+        version: 1.0.1(eslint@9.31.0(jiti@2.5.0))
       eslint-plugin-import-lite:
         specifier: ^0.3.0
         version: 0.3.0(eslint@9.31.0(jiti@2.5.0))(typescript@5.8.3)
@@ -132,9 +135,6 @@ importers:
       eslint:
         specifier: 9.31.0
         version: 9.31.0(jiti@2.5.0)
-      eslint-plugin-format:
-        specifier: 1.0.1
-        version: 1.0.1(eslint@9.31.0(jiti@2.5.0))
       eslint-plugin-react-hooks:
         specifier: ^5.2.0
         version: 5.2.0(eslint@9.31.0(jiti@2.5.0))
