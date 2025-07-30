@@ -159,6 +159,9 @@ importers:
       prettier-plugin-slidev:
         specifier: ^1.0.5
         version: 1.0.5(prettier@3.6.2)
+      react:
+        specifier: ^19.1.0
+        version: 19.1.1
       simple-git-hooks:
         specifier: ^2.13.0
         version: 2.13.0
@@ -2249,6 +2252,10 @@ packages:
 
   radix3@1.1.2:
     resolution: {integrity: sha512-b484I/7b8rDEdSDKckSSBA8knMpcdsXudlE/LNL639wFoHKwLbEkQFZHWEYwDC0wa0FKUcCY+GAF73Z7wxNVFA==}
+
+  react@19.1.1:
+    resolution: {integrity: sha512-w8nqGImo45dmMIfljjMwOGtbmC/mk4CMYhWIicdSflH91J9TyCyczcPFXJzrZ/ZXcgGRFeP6BU0BEJTw6tZdfQ==}
+    engines: {node: '>=0.10.0'}
 
   readdirp@4.1.2:
     resolution: {integrity: sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg==}
@@ -5071,6 +5078,8 @@ snapshots:
   queue-microtask@1.2.3: {}
 
   radix3@1.1.2: {}
+
+  react@19.1.1: {}
 
   readdirp@4.1.2: {}
 

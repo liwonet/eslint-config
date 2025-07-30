@@ -15,6 +15,7 @@ afterAll(async () => {
 })
 
 runWithConfig('js', {
+  react: false,
   typescript: false,
   vue: false,
 })
@@ -102,6 +103,7 @@ runWithConfig(
   {
     jsx: false,
     vue: false,
+    react: false,
     markdown: false,
     formatters: {
       markdown: true,

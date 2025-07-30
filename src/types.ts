@@ -353,12 +353,7 @@ export interface OptionsConfig extends OptionsComponentExts, OptionsProjectType 
   /**
    * Enable react rules.
    *
-   * Requires installing:
-   * - `@eslint-react/eslint-plugin`
-   * - `eslint-plugin-react-hooks`
-   * - `eslint-plugin-react-refresh`
-   *
-   * @default false
+   * @default auto-detect based on the dependencies
    */
   react?: boolean | OptionsOverrides
 
