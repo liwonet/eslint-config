@@ -1,7 +1,7 @@
 {
   "name": "@liwo/eslint-config",
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "packageManager": "pnpm@10.13.1",
   "description": "ESLint config by Liwo",
   "author": "Aoang <aoang@x2oe.com>",
