@@ -12,6 +12,27 @@ It's an opinionated and aggressive eslint config.
 pnpm add -D eslint @liwo/eslint-config
 ```
 
+Add `package.json` scripts.
+
+```json
+{
+  "scripts": {
+    "lint": "eslint .",
+    "format": "eslint --fix ."
+  }
+}
+```
+
+## Usage
+
+```shell
+pnpm run lint
+```
+
+```shell
+pnpm run format
+```
+
 ## Acknowledgements
 
 Thanks to the community and developers for their contributions!
