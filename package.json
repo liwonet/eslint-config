@@ -35,6 +35,7 @@
     "gen": "tsx scripts/typegen.ts",
     "prepack": "pnpm run build",
     "test": "vitest",
+    "release": "bumpp",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
   },
@@ -105,7 +106,8 @@
     "@prettier/plugin-xml": "^3.4.2",
     "@types/node": "24.9.2",
     "@unocss/eslint-plugin": "^66.5.4",
-    "eslint": "9.38.0",
+    "bumpp": "^10.3.1",
+    "eslint": "^9.38.0",
     "eslint-plugin-vuejs-accessibility": "^2.4.1",
     "eslint-typegen": "^2.3.0",
     "execa": "^9.6.0",
