@@ -1,6 +1,10 @@
 # @liwo/eslint-config
 
-Hard-forked from `@antfu/eslint-config`. It adopts a more opinionated and aggressive approach, making it generally unsuitable for the majority of users.
+[![npm](https://img.shields.io/npm/v/@liwo/eslint-config?label=npm)](https://npmjs.com/package/@liwo/eslint-config)
+[![downloads](https://img.shields.io/npm/dm/@liwo/eslint-config.svg)](https://npmjs.com/package/@liwo/eslint-config)
+[![ci status](https://github.com/liwonet/eslint-config/workflows/CI/badge.svg)](https://github.com/liwonet/eslint-config/actions)
+
+It's an opinionated and aggressive eslint config.
 
 ## Install
 
