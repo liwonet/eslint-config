@@ -2,6 +2,12 @@
 
 Hard-forked from `@antfu/eslint-config`. It adopts a more opinionated and aggressive approach, making it generally unsuitable for the majority of users.
 
+## Install
+
+```shell
+pnpm add -D eslint @liwo/eslint-config
+```
+
 ## Acknowledgements
 
 Thanks to the community and developers for their contributions!
