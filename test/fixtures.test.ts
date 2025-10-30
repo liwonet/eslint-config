@@ -156,5 +156,5 @@ export default liwo(
       }
       await expect.soft(content).toMatchFileSnapshot(join(output, file))
     }))
-  }, process.platform === 'win32' ? 300_000 : 30_000)
+  }, 300_000)
 }
