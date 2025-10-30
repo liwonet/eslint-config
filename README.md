@@ -1,8 +1,11 @@
 # @liwo/eslint-config
 
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC.svg?logo=typescript&logoColor=white)
 [![npm](https://img.shields.io/npm/v/@liwo/eslint-config?label=npm)](https://npmjs.com/package/@liwo/eslint-config)
 [![downloads](https://img.shields.io/npm/dm/@liwo/eslint-config.svg)](https://npmjs.com/package/@liwo/eslint-config)
-[![ci status](https://github.com/liwonet/eslint-config/workflows/CI/badge.svg)](https://github.com/liwonet/eslint-config/actions)
+[![ci status](https://github.com/liwonet/eslint-config/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/liwonet/eslint-config/actions/workflows/ci.yml)
+![unpacked size](https://img.shields.io/npm/unpacked-size/%40liwo%2Feslint-config)
+![license](https://img.shields.io/github/license/liwonet/eslint-config)
 
 It's an opinionated and aggressive eslint config.
 
