@@ -31,4 +31,4 @@ jobs:
           pnpm install --frozen-lockfile
 
       - name: Publish
-        run: pnpm publish --access public
+        run: pnpm publish --no-git-checks --access public
