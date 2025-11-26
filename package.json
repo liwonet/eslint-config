@@ -78,7 +78,7 @@
     "eslint-plugin-command": "3.3.1",
     "eslint-plugin-format": "1.0.2",
     "eslint-plugin-import-lite": "0.3.0",
-    "eslint-plugin-jsdoc": "61.1.12",
+    "eslint-plugin-jsdoc": "61.4.1",
     "eslint-plugin-jsonc": "2.21.0",
     "eslint-plugin-n": "17.23.1",
     "eslint-plugin-no-only-tests": "3.3.0",
