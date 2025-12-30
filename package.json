@@ -2,7 +2,7 @@
   "name": "@liwo/eslint-config",
   "type": "module",
   "version": "0.1.2",
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "pnpm@10.26.2",
   "description": "ESLint config by Liwo",
   "author": "Aoang <aoang@x2oe.com>",
   "license": "MIT",
@@ -36,7 +36,7 @@
     "gen": "tsx scripts/typegen.ts",
     "prepack": "pnpm run build",
     "test": "vitest",
-    "release": "bumpp",
+    "release": "bumpp --sign",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
   },
