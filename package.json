@@ -72,7 +72,7 @@
     "@typescript-eslint/parser": "8.57.0",
     "@vitest/eslint-plugin": "1.6.10",
     "eslint-config-flat-gitignore": "2.3.0",
-    "eslint-flat-config-utils": "3.0.2",
+    "eslint-flat-config-utils": "3.1.0",
     "eslint-merge-processors": "2.0.0",
     "eslint-plugin-antfu": "3.2.2",
     "eslint-plugin-command": "3.5.2",
