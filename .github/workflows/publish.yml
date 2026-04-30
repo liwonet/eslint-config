@@ -26,9 +26,15 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - name: Install
-        run: |
-          npm install -g npm@latest
-          pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Publish
-        run: pnpm publish --no-git-checks --access public
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          if [[ "$VERSION" == *-* ]]; then
+            PRERELEASE="${VERSION#*-}"
+            NPM_TAG="${PRERELEASE%%.*}"
+          else
+            NPM_TAG="latest"
+          fi
+          pnpm publish --no-git-checks --access public --tag "$NPM_TAG"
