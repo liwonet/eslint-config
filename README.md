@@ -42,4 +42,4 @@ Thanks to the community and developers for their contributions!
 
 This project is deployed on GitHub Pages and Netlify.
 
-[![netlify](https://www.netlify.com/v3/img/components/netlify-color-bg.svg)](https://www.netlify.com/?source=liwo)
+[![netlify](https://www.netlify.com/assets/logos/full/large/lightmode/logo-netlify-large-fullcolor-lightmode.svg)](https://www.netlify.com/?source=liwo)
