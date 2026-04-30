@@ -8,8 +8,7 @@
     "skipLibCheck": true
   },
   "include": [
-    "**/*.ts",
-    "*.ts"
+    "**/*.ts"
   ],
   "exclude": [
     "./fixtures/**/*.*",
