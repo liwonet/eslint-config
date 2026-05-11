@@ -112,7 +112,7 @@
     "eslint-plugin-vuejs-accessibility": "2.5.0",
     "eslint-typegen": "2.3.1",
     "execa": "9.6.1",
-    "lint-staged": "16.4.0",
+    "lint-staged": "17.0.4",
     "pnpm-workspace-yaml": "1.6.0",
     "prettier-plugin-slidev": "1.0.5",
     "react": "19.2.5",
