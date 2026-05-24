@@ -105,7 +105,7 @@
     "@eslint/config-inspector": "2.0.0",
     "@liwo/eslint-config": "workspace:*",
     "@prettier/plugin-xml": "3.4.2",
-    "@types/node": "25.6.2",
+    "@types/node": "25.9.1",
     "@unocss/eslint-plugin": "66.7.0",
     "bumpp": "11.1.0",
     "eslint": "10.4.0",
