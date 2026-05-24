@@ -3,3 +3,5 @@ packages:
 allowBuilds:
   esbuild: true
   simple-git-hooks: true
+minimumReleaseAgeExclude:
+  - '@vitest/eslint-plugin@1.6.18'
