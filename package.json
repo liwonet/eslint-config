@@ -29,7 +29,7 @@
     "build": "pnpm run gen && tsdown --clean --dts",
     "stub": "tsdown",
     "dev": "npx @eslint/config-inspector --config eslint.config.ts",
-    "build:inspector": "pnpm build && npx @eslint/config-inspector build && tsx scripts/fixed-netlify.ts",
+    "build:inspector": "pnpm build && npx @eslint/config-inspector build --outDir .eslint-config-inspector && tsx scripts/fixed-netlify.ts",
     "watch": "tsdown --watch",
     "lint": "eslint",
     "format": "eslint --fix .",
@@ -102,7 +102,7 @@
     "yaml-eslint-parser": "2.0.0"
   },
   "devDependencies": {
-    "@eslint/config-inspector": "2.0.0",
+    "@eslint/config-inspector": "3.0.2",
     "@liwo/eslint-config": "workspace:*",
     "@prettier/plugin-xml": "3.4.2",
     "@types/node": "25.9.1",
