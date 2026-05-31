@@ -96,8 +96,8 @@ importers:
         specifier: 10.9.1
         version: 10.9.1(@stylistic/eslint-plugin@5.10.0(eslint@10.4.0(jiti@2.7.0)))(@typescript-eslint/parser@8.60.0(eslint@10.4.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.4.0(jiti@2.7.0))(vue-eslint-parser@10.4.0(eslint@10.4.0(jiti@2.7.0)))
       eslint-plugin-yml:
-        specifier: 3.3.2
-        version: 3.3.2(eslint@10.4.0(jiti@2.7.0))
+        specifier: 3.4.0
+        version: 3.4.0(eslint@10.4.0(jiti@2.7.0))
       eslint-processor-vue-blocks:
         specifier: 2.0.0
         version: 2.0.0(@vue/compiler-sfc@3.5.34)(eslint@10.4.0(jiti@2.7.0))
@@ -1867,8 +1867,8 @@ packages:
       eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
       globals: '>= 13.12.1'
 
-  eslint-plugin-yml@3.3.2:
-    resolution: {integrity: sha512-XjmOB/fLBwYHqevnpclPL938V+9ExX7xw1hPaM3IPePGyMFRV1giS16RjSTNhIyCv/Oh0G0PEdmmZPATJ02YCw==}
+  eslint-plugin-yml@3.4.0:
+    resolution: {integrity: sha512-j6U3ESrAkidkvNb3HFN2UMxke46GNp6bsJokabXCICcgomSy3YU4oED9cjzkZ58nYxWD5qnWV1b/2YlqyWMOxA==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24.0.0}
     peerDependencies:
       eslint: '>=9.38.0'
@@ -4765,7 +4765,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-yml@3.3.2(eslint@10.4.0(jiti@2.7.0)):
+  eslint-plugin-yml@3.4.0(eslint@10.4.0(jiti@2.7.0)):
     dependencies:
       '@eslint/core': 1.2.1
       '@eslint/plugin-kit': 0.7.2
