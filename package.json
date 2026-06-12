@@ -106,7 +106,7 @@
     "@liwo/eslint-config": "workspace:*",
     "@prettier/plugin-xml": "3.4.2",
     "@types/node": "25.9.1",
-    "@unocss/eslint-plugin": "66.7.0",
+    "@unocss/eslint-plugin": "66.7.2",
     "bumpp": "11.1.0",
     "eslint": "10.4.0",
     "eslint-plugin-vuejs-accessibility": "2.5.0",
