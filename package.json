@@ -102,7 +102,7 @@
     "yaml-eslint-parser": "2.1.0"
   },
   "devDependencies": {
-    "@eslint/config-inspector": "3.0.2",
+    "@eslint/config-inspector": "3.0.4",
     "@liwo/eslint-config": "workspace:*",
     "@prettier/plugin-xml": "3.4.2",
     "@types/node": "26.1.1",
