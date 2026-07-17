@@ -122,7 +122,7 @@
     "tsx": "4.23.1",
     "typescript": "6.0.3",
     "vitest": "4.1.10",
-    "vue": "3.5.39"
+    "vue": "3.5.40"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
