@@ -4,6 +4,8 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+packageExtensionsChecksum: sha256-ouqoZOMLglqmLyX7iB8E7JhwnDVY62R9asl3UuaLaJI=
+
 importers:
 
   .:
@@ -137,7 +139,7 @@ importers:
         version: 26.1.2
       '@unocss/eslint-plugin':
         specifier: 66.7.5
-        version: 66.7.5(eslint@10.8.0(jiti@2.7.0))(typescript@6.0.3)
+        version: 66.7.5(@typescript-eslint/types@8.66.0)(eslint@10.8.0(jiti@2.7.0))(typescript@6.0.3)
       bumpp:
         specifier: 12.1.1
         version: 12.1.1
@@ -1008,6 +1010,8 @@ packages:
 
   '@unocss/eslint-plugin@66.7.5':
     resolution: {integrity: sha512-VCOY8w/y+o/2Vm6QqDgKZmX7XUjU0y/22ScI6AU0CxYtKUjHukUFubKgvn7/iRHiJEhrgtpxF1kDLvkNzhsklg==}
+    peerDependencies:
+      '@typescript-eslint/types': '*'
 
   '@unocss/rule-utils@66.7.5':
     resolution: {integrity: sha512-/AKHBRF6ZOexE3EDDv8ZEYh40P5e2Eha41IYUbE1wjigW7++ssmvimSTdufJzZvU5DGP++E3B3WEsFPprZMjAg==}
@@ -3657,8 +3661,9 @@ snapshots:
 
   '@unocss/core@66.7.5': {}
 
-  '@unocss/eslint-plugin@66.7.5(eslint@10.8.0(jiti@2.7.0))(typescript@6.0.3)':
+  '@unocss/eslint-plugin@66.7.5(@typescript-eslint/types@8.66.0)(eslint@10.8.0(jiti@2.7.0))(typescript@6.0.3)':
     dependencies:
+      '@typescript-eslint/types': 8.66.0
       '@typescript-eslint/utils': 8.66.0(eslint@10.8.0(jiti@2.7.0))(typescript@6.0.3)
       '@unocss/config': 66.7.5
       '@unocss/core': 66.7.5
