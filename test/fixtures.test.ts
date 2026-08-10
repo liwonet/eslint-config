@@ -128,7 +128,7 @@ function runWithConfig(name: string, configs: OptionsConfig, ...items: TypedFlat
 import liwo from '@liwo/eslint-config'
 
 export default liwo(
-  ${JSON.stringify(configs)},
+  ${JSON.stringify({ isInEditor: false, ...configs })},
   ...${JSON.stringify(items) ?? []},
 )
   `)
