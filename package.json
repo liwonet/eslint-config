@@ -107,7 +107,7 @@
     "@prettier/plugin-xml": "3.4.2",
     "@types/node": "26.2.0",
     "@unocss/eslint-plugin": "66.7.5",
-    "bumpp": "12.2.0",
+    "bumpp": "12.2.1",
     "eslint": "10.8.1",
     "eslint-plugin-vuejs-accessibility": "2.6.0",
     "eslint-typegen": "2.3.1",
