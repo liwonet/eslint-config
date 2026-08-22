@@ -2,7 +2,7 @@
   "name": "@liwo/eslint-config",
   "type": "module",
   "version": "0.4.1",
-  "packageManager": "pnpm@11.20.0",
+  "packageManager": "pnpm@11.22.0",
   "description": "ESLint config by Liwo",
   "author": "Aoang <aoang@x2oe.com>",
   "license": "MIT",
