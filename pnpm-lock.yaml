@@ -126,8 +126,8 @@ importers:
         version: 2.1.0
     devDependencies:
       '@eslint/config-inspector':
-        specifier: 3.3.0
-        version: 3.3.0(eslint@10.9.1(jiti@2.7.0))(srvx@0.12.5)
+        specifier: 3.4.0
+        version: 3.4.0(eslint@10.9.1(jiti@2.7.0))(srvx@1.0.3)
       '@liwo/eslint-config':
         specifier: workspace:*
         version: 'link:'
@@ -538,8 +538,8 @@ packages:
     resolution: {integrity: sha512-DObd/KKUsU+FaFv4PLxSRenpXfQWmPXXP3pPZ6/K1PCrMu2vQpMDMuQe/BqYeoLcz8ro0bVDF1RxOJgfVEdhUw==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
-  '@eslint/config-inspector@3.3.0':
-    resolution: {integrity: sha512-ud44BKgqP3DW/H64LOhrtRftS5BWe3W40NWaXW1hIv1xZLh2p2dMCOIABMQmAJNJI7hMTH5AX9KzLz4ecyYShg==}
+  '@eslint/config-inspector@3.4.0':
+    resolution: {integrity: sha512-8TXN2JiWBX2pzY+bb5uccWBIZ3C1mSSzyvYDBwHaorAq+GaGJax9/BtwdnqbvWviVHUN5vHBgUkg2gYyd+js7w==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     hasBin: true
     peerDependencies:
@@ -600,6 +600,14 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
+
+  '@modelcontextprotocol/core@2.0.0':
+    resolution: {integrity: sha512-pJCEwGG7Lfr/+PQp9ZTwKXNeO5wzbfKL7H3MYpCorM4oFBoQrdjnBgEoqG+RjhsvS1FKrDbKux+M1HhlnGWqcA==}
+    engines: {node: '>=20'}
+
+  '@modelcontextprotocol/server@2.0.0':
+    resolution: {integrity: sha512-YhHWdHfpFMQfd0prsEnxKeS3Qz3ytIGmsS0sth4KDjnacIT7hxk6hXHkJ9KysxlkvTM+WZAtQbbcUhdoP4Hvtw==}
+    engines: {node: '>=20'}
 
   '@ota-meshi/ast-token-store@0.3.0':
     resolution: {integrity: sha512-XRO0zi2NIUKq2lUk3T1ecFSld1fMWRKE6naRFGkgkdeosx7IslyUKNv5Dcb5PJTja9tHJoFu0v/7yEpAkrkrTg==}
@@ -1298,8 +1306,8 @@ packages:
   birecord@0.1.2:
     resolution: {integrity: sha512-5PAPTTmMpMEb+GuMb5DebfBkipRGyIW9+gtwEBSoDA9xkhHILm04+hZQ702pMksu3d8YAuGkmgTzQWcKqTPScA==}
 
-  birpc@4.1.0:
-    resolution: {integrity: sha512-O8L9vALWGqdEe0cG4HJckauw3WeJETlJnDRPUYpgwB7wrU43b/5NGMdVjdVcRo+4ROgd3ih2wha1glDe4HRVgw==}
+  birpc@4.2.0:
+    resolution: {integrity: sha512-KxgKcZPfrtzJDDALHPguGpGJUrzdgpymyiQQgzFjWreHMOpWrnFNVREr5J48x2DBh8ZVioscrV1SBkDipGiX+Q==}
 
   boolbase@1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
@@ -1396,8 +1404,8 @@ packages:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
 
-  crossws@0.4.10:
-    resolution: {integrity: sha512-pz3oubH/dt12KjqsUB0IuXW4nwRDQ583iDsP4555Cpdqx0NoU7pGlWBcayyFI8f/l/idRpgjMEfwuOxSWJYlIA==}
+  crossws@0.4.12:
+    resolution: {integrity: sha512-aypfsr6t0uNvkqaZc6zvBfXzC6pLI0/sIulpkV6RwCVtZqG5ebBzv4weImKK0VNCj91Wl9F5j7p5WU4MNrybng==}
     peerDependencies:
       srvx: '>=0.11.5'
     peerDependenciesMeta:
@@ -1442,17 +1450,14 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  devframe@0.9.4:
-    resolution: {integrity: sha512-+cEm5r/IEHnGJhpJTRJXX5UW1S6vDRZvYUHeXLwoyFrUPRNwgD767LWPEpqWhinR4OARgn5AtrU0fjBRnw2olA==}
+  devframe@0.9.12:
+    resolution: {integrity: sha512-WXwohwmTPVesEQYDAIh41rZYry6BRsufEyr8f5EAPXKi3SYchAYVJJV5qjBv4jRtouyRh7Z96zfZiSE0YEfQaA==}
     hasBin: true
     peerDependencies:
       '@modelcontextprotocol/client': ^2.0.0
-      '@modelcontextprotocol/server': ^2.0.0
       cac: ^7.0.0
     peerDependenciesMeta:
       '@modelcontextprotocol/client':
-        optional: true
-      '@modelcontextprotocol/server':
         optional: true
       cac:
         optional: true
@@ -1910,14 +1915,17 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  h3@2.0.1-rc.26:
-    resolution: {integrity: sha512-GDxlvDsKxgjRvG5UBRJYyGJTMWLV30CJ4cV+e7QCTgftDHihrvio1fVPbNembhEr6J4WNm8IWy3fookgyTweLw==}
+  h3@2.0.1-rc.31:
+    resolution: {integrity: sha512-AG7qZzF99a0BSYoXT3evJgIhwSIUKow7R+hwkLRZS06WJ9nbSb7QXUDgs1ByBjp6svTvl++N/GKA7I9YPz9cQQ==}
     engines: {node: '>=20.11.1'}
     hasBin: true
     peerDependencies:
-      crossws: ^0.4.9
+      crossws: ^0.4.12
+      ocache: '>=0.3.0'
     peerDependenciesMeta:
       crossws:
+        optional: true
+      ocache:
         optional: true
 
   hermes-estree@0.25.1:
@@ -2517,8 +2525,8 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
-  rou3@0.9.1:
-    resolution: {integrity: sha512-z/sSmzvtwMDDnxsPVhfWMuG6F6mbmhFDXoVqLmMfbpDD9qfV3GDmSQpf0+W296/ZDIpW2wcMmBfpVFzcnOi/nA==}
+  rou3@0.9.2:
+    resolution: {integrity: sha512-3SOzvaAg8rkHrXtRjpCvCvbyO5to9oOO27Z/XqHEYXfMRVSw/qMIVdmaOk9W2lcRLtR6dlqTjo9hDeJk70QBYQ==}
 
   scslre@0.3.0:
     resolution: {integrity: sha512-3A6sD0WYP7+QrjbfNA2FN3FsOaGGFoekCVgTyypy53gPxhbkCIjtO6YWgdrfM+n/8sI8JeXZOIxsHjMTNxQ4nQ==}
@@ -2568,8 +2576,8 @@ packages:
   spdx-license-ids@3.0.23:
     resolution: {integrity: sha512-CWLcCCH7VLu13TgOH+r8p1O/Znwhqv/dbb6lqWy67G+pT1kHmeD/+V36AVb/vq8QMIQwVShJ6Ssl5FPh0fuSdw==}
 
-  srvx@0.12.5:
-    resolution: {integrity: sha512-IuvtDNQg5EIwv3c6dleyau7u8hCyGQ7D6+V/QM799Aud07z0wCUcurKLTRfyG33C8oUY+UWcVBFkfHMcbtmRLA==}
+  srvx@1.0.3:
+    resolution: {integrity: sha512-aOuk+yNJA61yA6eJJvQJxpJLIxz090hKMqDGzd35tGsvwaodi1RPuYSFUp5EINaJp7snjVwLkO2RXVMPZBYnnA==}
     engines: {node: '>=20.16.0'}
     hasBin: true
 
@@ -3266,18 +3274,18 @@ snapshots:
     dependencies:
       '@eslint/core': 1.2.1
 
-  '@eslint/config-inspector@3.3.0(eslint@10.9.1(jiti@2.7.0))(srvx@0.12.5)':
+  '@eslint/config-inspector@3.4.0(eslint@10.9.1(jiti@2.7.0))(srvx@1.0.3)':
     dependencies:
       ansis: 4.3.1
       cac: 7.0.0
       chokidar: 5.0.0
-      devframe: 0.9.4(cac@7.0.0)(srvx@0.12.5)
+      devframe: 0.9.12(cac@7.0.0)(srvx@1.0.3)
       eslint: 10.9.1(jiti@2.7.0)
       jiti: 2.7.0
       tinyglobby: 0.2.17
     transitivePeerDependencies:
       - '@modelcontextprotocol/client'
-      - '@modelcontextprotocol/server'
+      - ocache
       - srvx
 
   '@eslint/core@1.2.1':
@@ -3346,6 +3354,15 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
+
+  '@modelcontextprotocol/core@2.0.0':
+    dependencies:
+      zod: 4.4.3
+
+  '@modelcontextprotocol/server@2.0.0':
+    dependencies:
+      '@modelcontextprotocol/core': 2.0.0
+      zod: 4.4.3
 
   '@ota-meshi/ast-token-store@0.3.0': {}
 
@@ -3935,7 +3952,7 @@ snapshots:
 
   birecord@0.1.2: {}
 
-  birpc@4.1.0: {}
+  birpc@4.2.0: {}
 
   boolbase@1.0.0: {}
 
@@ -4017,9 +4034,9 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
-  crossws@0.4.10(srvx@0.12.5):
+  crossws@0.4.12(srvx@1.0.3):
     optionalDependencies:
-      srvx: 0.12.5
+      srvx: 1.0.3
 
   cssesc@3.0.0: {}
 
@@ -4043,12 +4060,13 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  devframe@0.9.4(cac@7.0.0)(srvx@0.12.5):
+  devframe@0.9.12(cac@7.0.0)(srvx@1.0.3):
     dependencies:
+      '@modelcontextprotocol/server': 2.0.0
       '@standard-schema/spec': 1.1.0
-      birpc: 4.1.0
-      crossws: 0.4.10(srvx@0.12.5)
-      h3: 2.0.1-rc.26(crossws@0.4.10(srvx@0.12.5))
+      birpc: 4.2.0
+      crossws: 0.4.12(srvx@1.0.3)
+      h3: 2.0.1-rc.31(crossws@0.4.12(srvx@1.0.3))
       mrmime: 2.0.1
       nostics: 1.2.0
       pathe: 2.0.3
@@ -4056,6 +4074,7 @@ snapshots:
     optionalDependencies:
       cac: 7.0.0
     transitivePeerDependencies:
+      - ocache
       - srvx
 
   devlop@1.1.0:
@@ -4649,12 +4668,12 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  h3@2.0.1-rc.26(crossws@0.4.10(srvx@0.12.5)):
+  h3@2.0.1-rc.31(crossws@0.4.12(srvx@1.0.3)):
     dependencies:
-      rou3: 0.9.1
-      srvx: 0.12.5
+      rou3: 0.9.2
+      srvx: 1.0.3
     optionalDependencies:
-      crossws: 0.4.10(srvx@0.12.5)
+      crossws: 0.4.12(srvx@1.0.3)
 
   hermes-estree@0.25.1: {}
 
@@ -5406,7 +5425,7 @@ snapshots:
       '@rolldown/binding-win32-arm64-msvc': 1.2.7
       '@rolldown/binding-win32-x64-msvc': 1.2.7
 
-  rou3@0.9.1: {}
+  rou3@0.9.2: {}
 
   scslre@0.3.0:
     dependencies:
@@ -5443,7 +5462,7 @@ snapshots:
 
   spdx-license-ids@3.0.23: {}
 
-  srvx@0.12.5: {}
+  srvx@1.0.3: {}
 
   stackback@0.0.2: {}
 
