@@ -83,8 +83,8 @@ importers:
         specifier: 0.5.6
         version: 0.5.6(eslint@10.9.1(jiti@2.7.0))
       eslint-plugin-regexp:
-        specifier: 3.2.0
-        version: 3.2.0(eslint@10.9.1(jiti@2.7.0))
+        specifier: 3.3.0
+        version: 3.3.0(eslint@10.9.1(jiti@2.7.0))
       eslint-plugin-toml:
         specifier: 1.5.0
         version: 1.5.0(eslint@10.9.1(jiti@2.7.0))
@@ -1673,8 +1673,8 @@ packages:
       eslint: '*'
       typescript: '*'
 
-  eslint-plugin-regexp@3.2.0:
-    resolution: {integrity: sha512-4yq47CnLxyfHFKJEo5kvNaiJ0aDtBxSJWk4M2LiamplUXdWxdlzDYqImb/ZVCp+2BqkQjBAmw4Xc07Q8SXVDZg==}
+  eslint-plugin-regexp@3.3.0:
+    resolution: {integrity: sha512-TT0JTQbW7CRKohntpGAsMdQ1K3MsmJK4gdAhKJtIwlJ0JvuYxauymFgJdvqxIY4lqNj0EuRZWVrymQtEdJYEFg==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     peerDependencies:
       eslint: '>=9.38.0'
@@ -2004,10 +2004,6 @@ packages:
 
   jsdoc-type-pratt-parser@9.0.1:
     resolution: {integrity: sha512-1LJ/negRKJxH0+ulOsJYEpUgzIs1DAOz9QctuS4In2LW/Ro3l8C4ej5al+5FU2hBGEOAY3R3SCnP6x8226JMIw==}
-    engines: {node: ^22.22.2 || >=24.15.0}
-
-  jsdoc-type-pratt-parser@9.1.1:
-    resolution: {integrity: sha512-kojSbQb9iQM2bk2PmHiKa3reG0U4v2gN9U8D8+eCQq+4KM5ZXBUyBVeF8KmR0RiwqyrW4+uVWYWTOLnpsavnkw==}
     engines: {node: ^22.22.2 || >=24.15.0}
 
   jsdoc-type-pratt-parser@9.1.2:
@@ -4376,13 +4372,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-regexp@3.2.0(eslint@10.9.1(jiti@2.7.0)):
+  eslint-plugin-regexp@3.3.0(eslint@10.9.1(jiti@2.7.0)):
     dependencies:
       '@eslint-community/eslint-utils': 4.10.1(eslint@10.9.1(jiti@2.7.0))
       '@eslint-community/regexpp': 4.12.2
       comment-parser: 1.4.8
       eslint: 10.9.1(jiti@2.7.0)
-      jsdoc-type-pratt-parser: 9.1.1
+      jsdoc-type-pratt-parser: 9.1.2
       refa: 0.12.1
       regexp-ast-analysis: 0.7.1
       scslre: 0.3.0
@@ -4721,10 +4717,6 @@ snapshots:
       argparse: 2.0.1
 
   jsdoc-type-pratt-parser@9.0.1:
-    dependencies:
-      '@types/estree': 1.0.9
-
-  jsdoc-type-pratt-parser@9.1.1:
     dependencies:
       '@types/estree': 1.0.9
 
