@@ -138,8 +138,8 @@ importers:
         specifier: 26.5.1
         version: 26.5.1
       '@unocss/eslint-plugin':
-        specifier: 66.10.0
-        version: 66.10.0(@typescript-eslint/types@8.70.0)(eslint@10.10.0(jiti@2.7.0))(typescript@6.0.3)
+        specifier: 66.10.2
+        version: 66.10.2(@typescript-eslint/types@8.70.0)(eslint@10.10.0(jiti@2.7.0))(typescript@6.0.3)
       bumpp:
         specifier: 12.3.0
         version: 12.3.0
@@ -1113,19 +1113,19 @@ packages:
     resolution: {integrity: sha512-BoC8PiO4Hkdo0TVJh9Ntxr5MxPDI7/oFsrygN5ADelFSeXG/qgNuucIGA+L5Z6JpPTE/uRfcTWtscjbUaufepQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@unocss/config@66.10.0':
-    resolution: {integrity: sha512-FuOGfNYwl+br7Nqknr2eRkUsPrN1diTInf9xvWcJB2xmu73LTe8o8YE1j85OT9cLv/tdp5fW0m5uTlQ5qyTyjw==}
+  '@unocss/config@66.10.2':
+    resolution: {integrity: sha512-4j2zyh4iftd86lqbWQA/xiXjtuz77lslhq3thrPJKzqaLUnb12r/RuTD+8/tlnYo8qCFp4dglDi9Emvr2+1BzA==}
 
-  '@unocss/core@66.10.0':
-    resolution: {integrity: sha512-d3IMOBqbAdkq4zWiV469o1Q4qizdKbD/wkbvLaq7W6qf1aDrZ/dqg29aWMj23Nb48NVDNhsQAPUhQre/IZ04mQ==}
+  '@unocss/core@66.10.2':
+    resolution: {integrity: sha512-KerWey/koorvS8DlBn0Vy98oFYvD0x3wAz+Huw8EDijlXg6rBgmY97lv388at2k98gercEP8eIun1h73JB+Nwg==}
 
-  '@unocss/eslint-plugin@66.10.0':
-    resolution: {integrity: sha512-8TFmomFgRX8SOqvS6bl59PiV0o0BU1KKcExsgxY79gzvYonBxabfbWMGZb863DjTUrWp+qk6HtSGHS5gf0Ybzw==}
+  '@unocss/eslint-plugin@66.10.2':
+    resolution: {integrity: sha512-aLmbgMcBLRVcsc/fyDGtFA1Cvpxs6w+j5c188i6KdQiQO81dQiBBdXO9HPZ5p+haRWMqayjcJJyQmnAQkdFmpg==}
     peerDependencies:
       '@typescript-eslint/types': '*'
 
-  '@unocss/rule-utils@66.10.0':
-    resolution: {integrity: sha512-J0UCAAIQ7U18zEnYm9YDGzmmjExtANX0MYvtn/Wrz4ZztjIGyLKvykX5NtGg27rp4bPpwY/i4vw978vxNupc3w==}
+  '@unocss/rule-utils@66.10.2':
+    resolution: {integrity: sha512-iqLEQBwUylcz7eFtLHx59bUdTzw7mEcb1E6W1KQ1wWqC4RbUpxhS2hG2w/0aBtfna7JnqxoVmNoHQh3V6JLcdQ==}
 
   '@vitest/eslint-plugin@1.6.27':
     resolution: {integrity: sha512-X1RCAfwbatG4GFbJ/1PIHP9MSZMt0JJThqbYID+vS4L783k6QGlLPe421wQE8dHXuGCcenVLsydiM4qzsYWxhg==}
@@ -3905,22 +3905,22 @@ snapshots:
       '@typescript-eslint/types': 8.70.0
       eslint-visitor-keys: 5.0.1
 
-  '@unocss/config@66.10.0':
+  '@unocss/config@66.10.2':
     dependencies:
-      '@unocss/core': 66.10.0
+      '@unocss/core': 66.10.2
       colorette: 2.0.20
       consola: 3.4.2
       unconfig: 7.5.0
 
-  '@unocss/core@66.10.0': {}
+  '@unocss/core@66.10.2': {}
 
-  '@unocss/eslint-plugin@66.10.0(@typescript-eslint/types@8.70.0)(eslint@10.10.0(jiti@2.7.0))(typescript@6.0.3)':
+  '@unocss/eslint-plugin@66.10.2(@typescript-eslint/types@8.70.0)(eslint@10.10.0(jiti@2.7.0))(typescript@6.0.3)':
     dependencies:
       '@typescript-eslint/types': 8.70.0
       '@typescript-eslint/utils': 8.69.0(eslint@10.10.0(jiti@2.7.0))(typescript@6.0.3)
-      '@unocss/config': 66.10.0
-      '@unocss/core': 66.10.0
-      '@unocss/rule-utils': 66.10.0
+      '@unocss/config': 66.10.2
+      '@unocss/core': 66.10.2
+      '@unocss/rule-utils': 66.10.2
       magic-string: 1.2.3
       synckit: 0.11.13
     transitivePeerDependencies:
@@ -3928,9 +3928,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@unocss/rule-utils@66.10.0':
+  '@unocss/rule-utils@66.10.2':
     dependencies:
-      '@unocss/core': 66.10.0
+      '@unocss/core': 66.10.2
       magic-string: 1.2.3
 
   '@vitest/eslint-plugin@1.6.27(@typescript-eslint/eslint-plugin@8.70.0(@typescript-eslint/parser@8.70.0(eslint@10.10.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.10.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.10.0(jiti@2.7.0))(typescript@6.0.3)(vitest@5.0.0(@types/node@26.5.1)(vite@8.2.1(@types/node@26.5.1)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.13)(yaml@2.9.0)))':
