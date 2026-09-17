@@ -231,6 +231,17 @@ export interface OptionsUnoCSS extends OptionsOverrides {
   strict?: boolean
 }
 
+export interface OptionsNextJS extends OptionsOverrides, OptionsFiles {
+  /**
+   * The root directory of the Next.js project.
+   *
+   * Passed to `settings.next.rootDir` for `@next/eslint-plugin-next`.
+   */
+  rootDir?: string
+}
+
+export interface OptionsStylex extends OptionsOverrides, OptionsFiles {}
+
 export interface OptionsConfig extends OptionsComponentExts, OptionsProjectType {
   /**
    * Enable gitignore support.
@@ -366,6 +377,20 @@ export interface OptionsConfig extends OptionsComponentExts, OptionsProjectType 
    * @default false
    */
   unocss?: boolean | OptionsUnoCSS
+
+  /**
+   * Enable nextjs rules.
+   *
+   * @default false
+   */
+  nextjs?: boolean | OptionsNextJS
+
+  /**
+   * Enable StyleX rules.
+   *
+   * @default auto-detect based on the dependencies
+   */
+  stylex?: boolean | OptionsStylex
 
   /**
    * Enable pnpm (workspace/catalogs) support.

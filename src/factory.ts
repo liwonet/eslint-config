@@ -15,12 +15,14 @@ import {
   jsonc,
   jsx,
   markdown,
+  nextjs,
   node,
   perfectionist,
   pnpm,
   react,
   sortPackageJson,
   sortTsconfig,
+  stylex,
   stylistic,
   test,
   toml,
@@ -54,6 +56,7 @@ const VuePackages = [
 export const defaultPluginRenaming = {
   '@eslint-react': 'react',
 
+  '@next/next': 'next',
   '@stylistic': 'style',
   '@typescript-eslint': 'ts',
   'import-lite': 'import',
@@ -82,9 +85,11 @@ export function eslintConfig(
     gitignore: enableGitignore = true,
     imports: enableImports = true,
     jsx: enableJsx = true,
+    nextjs: enableNextjs = false,
     pnpm: enableCatalogs = false, // TODO: smart detect
     react: enableReact = isPackageExists('react'),
     regexp: enableRegexp = true,
+    stylex: enableStylex = isPackageExists('@stylexjs/stylex'),
     typescript: enableTypeScript = isPackageExists('typescript'),
     unicorn: enableUnicorn = true,
     unocss: enableUnoCSS = false,
@@ -216,6 +221,20 @@ export function eslintConfig(
       ...typescriptOptions,
       overrides: getOverrides(options, 'react'),
       tsconfigPath,
+    }))
+  }
+
+  if (enableNextjs) {
+    configs.push(nextjs({
+      ...resolveSubOptions(options, 'nextjs'),
+      overrides: getOverrides(options, 'nextjs'),
+    }))
+  }
+
+  if (enableStylex) {
+    configs.push(stylex({
+      ...resolveSubOptions(options, 'stylex'),
+      overrides: getOverrides(options, 'stylex'),
     }))
   }
 
