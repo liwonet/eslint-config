@@ -1,6 +1,6 @@
 import type { OptionsStylex, TypedFlatConfigItem } from '../types'
 
-import { GLOB_SRC } from '../globs'
+import { GLOB_MARKDOWN_CODE, GLOB_SRC } from '../globs'
 import { ensurePackages, interopDefault } from '../utils'
 
 export async function stylex(
@@ -36,6 +36,15 @@ export async function stylex(
 
         // overrides
         ...overrides,
+      },
+    },
+    {
+      files: [GLOB_MARKDOWN_CODE],
+      name: 'liwo/stylex/markdown-disables',
+      rules: {
+        // Markdown processors use generated virtual filenames, so the rule
+        // cannot see filenames declared in code fence metadata.
+        '@stylexjs/enforce-extension': 'off',
       },
     },
   ]
