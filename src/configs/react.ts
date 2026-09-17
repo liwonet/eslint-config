@@ -1,4 +1,4 @@
-import type { OptionsFiles, OptionsOverrides, OptionsTypeScriptParserOptions, OptionsTypeScriptWithTypes, TypedFlatConfigItem } from '../types'
+import type { OptionsFiles, OptionsReact, OptionsTypeScriptParserOptions, OptionsTypeScriptWithTypes, TypedFlatConfigItem } from '../types'
 
 import { isPackageExists } from 'local-pkg'
 import { GLOB_MARKDOWN, GLOB_SRC, GLOB_TS, GLOB_TSX } from '../globs'
@@ -29,12 +29,13 @@ const TanstackRouterPackages = [
 ]
 
 export async function react(
-  options: OptionsTypeScriptParserOptions & OptionsTypeScriptWithTypes & OptionsOverrides & OptionsFiles = {},
+  options: OptionsTypeScriptParserOptions & OptionsTypeScriptWithTypes & OptionsReact & OptionsFiles = {},
 ): Promise<TypedFlatConfigItem[]> {
   const {
     files = [GLOB_SRC],
     filesTypeAware = [GLOB_TS, GLOB_TSX],
     ignoresTypeAware = [`${GLOB_MARKDOWN}/**`],
+    nextjs = false,
     overrides = {},
     tsconfigPath,
   } = options
@@ -61,7 +62,7 @@ export async function react(
   const isAllowConstantExport = ReactRefreshAllowConstantExportPackages.some(i => isPackageExists(i))
   const isUsingRemix = RemixPackages.some(i => isPackageExists(i))
   const isUsingReactRouter = ReactRouterPackages.some(i => isPackageExists(i))
-  const isUsingNext = NextJsPackages.some(i => isPackageExists(i))
+  const isUsingNext = nextjs || NextJsPackages.some(i => isPackageExists(i))
   const isUsingTanstackRouter = TanstackRouterPackages.some(i => isPackageExists(i))
 
   return [

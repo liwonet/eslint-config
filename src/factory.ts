@@ -219,6 +219,7 @@ export function eslintConfig(
   if (enableReact) {
     configs.push(react({
       ...typescriptOptions,
+      nextjs: !!enableNextjs,
       overrides: getOverrides(options, 'react'),
       tsconfigPath,
     }))

@@ -240,6 +240,18 @@ export interface OptionsNextJS extends OptionsOverrides, OptionsFiles {
   rootDir?: string
 }
 
+export interface OptionsReact extends OptionsOverrides {
+  /**
+   * Enable Next.js-specific React Refresh export names.
+   *
+   * This is enabled automatically when the Next.js config is enabled or the
+   * `next` package can be resolved from the current working directory.
+   *
+   * @default auto-detect based on the dependencies
+   */
+  nextjs?: boolean
+}
+
 export interface OptionsStylex extends OptionsOverrides, OptionsFiles {}
 
 export interface OptionsConfig extends OptionsComponentExts, OptionsProjectType {
@@ -366,7 +378,7 @@ export interface OptionsConfig extends OptionsComponentExts, OptionsProjectType 
    *
    * @default auto-detect based on the dependencies
    */
-  react?: boolean | OptionsOverrides
+  react?: boolean | OptionsReact
 
   /**
    * Enable unocss rules.
