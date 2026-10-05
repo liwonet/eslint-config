@@ -89,7 +89,8 @@ export async function react(
 
         // preconfigured rules from eslint-plugin-react-refresh https://github.com/ArnaudBarre/eslint-plugin-react-refresh/tree/main/src
         'react-refresh/only-export-components': [
-          'warn',
+          // TanStack Router route components do not need to be exported.
+          isUsingTanstackRouter ? 'off' : 'warn',
           {
             allowConstantExport: isAllowConstantExport,
             allowExportNames: [
@@ -123,7 +124,6 @@ export async function react(
                     'shouldRevalidate',
                   ]
                 : []),
-              ...(isUsingTanstackRouter ? ['Route'] : []),
             ],
           },
         ],
