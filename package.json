@@ -70,7 +70,7 @@
     "@next/eslint-plugin-next": "16.4.3",
     "@stylexjs/eslint-plugin": "0.19.1",
     "@stylistic/eslint-plugin": "5.10.0",
-    "@typescript-eslint/eslint-plugin": "8.71.2",
+    "@typescript-eslint/eslint-plugin": "8.72.0",
     "@typescript-eslint/parser": "8.72.0",
     "@vitest/eslint-plugin": "1.6.28",
     "eslint-config-flat-gitignore": "2.4.0",
