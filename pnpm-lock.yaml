@@ -274,8 +274,8 @@ importers:
         specifier: 3.3.0
         version: 3.3.0
       local-pkg:
-        specifier: 1.2.1
-        version: 1.2.1
+        specifier: 2.0.0
+        version: 2.0.0
       parse-gitignore:
         specifier: 2.0.0
         version: 2.0.0
@@ -2433,9 +2433,9 @@ packages:
     engines: {node: '>=22.22.1'}
     hasBin: true
 
-  local-pkg@1.2.1:
-    resolution: {integrity: sha512-++gUqRDEvcnN6Zhqrr+y/CkVEHhlrR96vZn3nZZPYzMcBUyBtTKzB9NadClFIsIVSsu+3i9tfk/erqy9kAmt7Q==}
-    engines: {node: '>=14'}
+  local-pkg@2.0.0:
+    resolution: {integrity: sha512-xvTNwM27EpU+fkLSpo33Pq/nm8m5zNf0aU/hF4W4ZM9RHQjVZa5KTmmXIzEzVsdI09NOUqj0djHhTv96sUowSQ==}
+    engines: {node: '>=20.19.0'}
 
   locate-path@6.0.0:
     resolution: {integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==}
@@ -2779,9 +2779,6 @@ packages:
   qified@0.10.1:
     resolution: {integrity: sha512-+Owyggi9IxT1ePKGafcI87ubSmxol6smwJ+RAHDQlx9+9cPwFWDiKFFCPuWhr9ignlGpZ9vDQLw67N4dcTVFEA==}
     engines: {node: '>=20'}
-
-  quansync@0.2.11:
-    resolution: {integrity: sha512-AifT7QEbW9Nri4tAwR5M/uzpBuqfZf+zwaEM/QkzEjj7NBuFD2rBuy0K3dE+8wltbezDV7JMA0WfnCPYRSYbXA==}
 
   quansync@1.0.0:
     resolution: {integrity: sha512-5xZacEEufv3HSTPQuchrvV6soaiACMFnq1H8wkVioctoH3TRha9Sz66lOxRwPK/qZj7HPiSveih9yAyh98gvqA==}
@@ -5333,11 +5330,11 @@ snapshots:
     optionalDependencies:
       yaml: 2.9.1
 
-  local-pkg@1.2.1:
+  local-pkg@2.0.0:
     dependencies:
       mlly: 1.8.2
       pkg-types: 2.3.1
-      quansync: 0.2.11
+      quansync: 1.0.0
 
   locate-path@6.0.0:
     dependencies:
@@ -5900,8 +5897,6 @@ snapshots:
   qified@0.10.1:
     dependencies:
       hookified: 2.2.0
-
-  quansync@0.2.11: {}
 
   quansync@1.0.0: {}
 
