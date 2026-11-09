@@ -100,7 +100,7 @@
     "local-pkg": "2.0.0",
     "parse-gitignore": "2.0.0",
     "toml-eslint-parser": "1.0.3",
-    "vue-eslint-parser": "10.4.1",
+    "vue-eslint-parser": "10.4.2",
     "yaml-eslint-parser": "2.1.0"
   },
   "devDependencies": {
