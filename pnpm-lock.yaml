@@ -187,8 +187,8 @@ importers:
         specifier: 16.4.6
         version: 16.4.6(eslint@10.14.0(jiti@2.7.0))
       '@stylexjs/eslint-plugin':
-        specifier: 0.19.1
-        version: 0.19.1
+        specifier: 0.19.2
+        version: 0.19.2
       '@stylistic/eslint-plugin':
         specifier: 5.10.0
         version: 5.10.0(eslint@10.14.0(jiti@2.7.0))
@@ -1258,11 +1258,11 @@ packages:
     resolution: {integrity: sha512-X67V4cCgM0Sz50bP8GbVzmiL8DHC2IXvdKcsN7DlxHyf+/T4d9GveeGukwha5Fx3MuYeGZWKag7TFL2ZY4w54A==}
     engines: {node: '>=18.0.0'}
 
-  '@stylexjs/eslint-plugin@0.19.1':
-    resolution: {integrity: sha512-875KpR4M71F5rTSTfDoGWbs09u8atZvVGWBN5bWt3svIEmuNwTMRZGdY8iHiaPrL+W49/tifc6pouKcn3t8d+A==}
+  '@stylexjs/eslint-plugin@0.19.2':
+    resolution: {integrity: sha512-Oynwwe3grD/H1cHOZeUQgodjmhe2CAEhf4MqdWNO95nDw5kANP9Vso/AKifhOrl5za7wpItHCW9bGef5RTl1UA==}
 
-  '@stylexjs/shared@0.19.1':
-    resolution: {integrity: sha512-oFBtW0NPNLJOT1gLweWRNKrIJHjJMwOmSV7fgd6ewok4fwb/Nh95PEaYGKu+ZONk0nNghjLFfOwiIsxJdvh3TQ==}
+  '@stylexjs/shared@0.19.2':
+    resolution: {integrity: sha512-xjTZ/6T/1FV103F2bspmXoDRDy1gM/ZKYEHpQlUC0h4R5q7PqUV6k+DJbrayRAMwALIdzTf7zSTqteRde0ZXWQ==}
 
   '@stylistic/eslint-plugin@5.10.0':
     resolution: {integrity: sha512-nPK52ZHvot8Ju/0A4ucSX1dcPV2/1clx0kLcH5wDmrE4naKso7TUC/voUyU1O9OTKTrR6MYip6LP0ogEMQ9jPQ==}
@@ -4154,14 +4154,14 @@ snapshots:
 
   '@slidev/types@0.47.5': {}
 
-  '@stylexjs/eslint-plugin@0.19.1':
+  '@stylexjs/eslint-plugin@0.19.2':
     dependencies:
       '@csstools/css-tokenizer': 3.0.4
-      '@stylexjs/shared': 0.19.1
+      '@stylexjs/shared': 0.19.2
       micromatch: 4.0.8
       postcss-value-parser: 4.2.0
 
-  '@stylexjs/shared@0.19.1': {}
+  '@stylexjs/shared@0.19.2': {}
 
   '@stylistic/eslint-plugin@5.10.0(eslint@10.14.0(jiti@2.7.0))':
     dependencies:
@@ -4263,8 +4263,8 @@ snapshots:
 
   '@typescript-eslint/project-service@8.72.1(typescript@6.0.3)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.72.1(typescript@6.0.3)
-      '@typescript-eslint/types': 8.72.1
+      '@typescript-eslint/tsconfig-utils': 8.72.2(typescript@6.0.3)
+      '@typescript-eslint/types': 8.72.2
       debug: 4.4.3
       typescript: 6.0.3
     transitivePeerDependencies:
