@@ -87,7 +87,7 @@
     "eslint-plugin-perfectionist": "5.14.0",
     "eslint-plugin-pnpm": "1.9.1",
     "eslint-plugin-react-hooks": "7.1.1",
-    "eslint-plugin-react-refresh": "0.5.7",
+    "eslint-plugin-react-refresh": "0.5.8",
     "eslint-plugin-regexp": "3.3.3",
     "eslint-plugin-toml": "1.5.0",
     "eslint-plugin-unicorn": "80.0.0",
